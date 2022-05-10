@@ -1,0 +1,597 @@
+export default function MyComponent(props) {
+  return (
+    <>
+      <div className="div" maxWidth={1200}>
+        <section className="section">
+          <div className="div-2">
+            <h2>
+              <strong>NOW SUMMONING THE GINGER ARMY (DAO)</strong>
+            </h2>
+          </div>
+          <div className="div-3" />
+          <div className="columns">
+            <div className="div-4">
+              <picture>
+                <source
+                  srcset="https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?format=webp&width=100 100w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?format=webp&width=200 200w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?format=webp&width=400 400w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?format=webp&width=800 800w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450"
+                  type="image/webp"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450"
+                  sizes="(max-width: 638px) 94vw, (max-width: 998px) 31vw,  28vw"
+                  srcset="https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?width=100 100w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?width=200 200w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?width=400 400w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?width=800 800w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?width=1200 1200w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?width=1600 1600w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450?width=2000 2000w, https://cdn.builder.io/api/v1/file/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fddfb87eceb954006b526e94e3ae0a450"
+                  className="image"
+                  loading={"lazy"}
+                />
+              </picture>
+              <div className="builder-image-sizer image-sizer" />
+            </div>
+          </div>
+          <div className="columns-2">
+            <div className="div-5">
+              <div className="div-6">
+                <h3>2022 Summer Enlistment Goal</h3>
+              </div>
+              <div className="div-7">
+                <h3>25 Gingers and 44 Sympathizers</h3>
+              </div>
+            </div>
+          </div>
+          <a
+            href="https://gtlaugavitz.typeform.com/enlist"
+            dangerouslySetInnerHTML={{ __html: "Enlist Today" }}
+            className="a"
+            openLinkInNewTab={true}
+          />
+          <div className="div-8">
+            <div className="builder-columns div-9">
+              <div className="builder-column column">
+                <div className="div-10">
+                  <div className="div-11">
+                    <p>
+                      <strong>SUNSCREEN FOR ALL AND TO ALL HAPPY SKIN</strong>
+                    </p>
+                  </div>
+                  <div className="div-12">
+                    <h2>OUR DAY IN THE SUN WILL COME</h2>
+                  </div>
+                </div>
+              </div>
+              <div className="builder-column column-2">
+                <div className="div-13">
+                  <p>
+                    <strong>
+                      Every Ginger in the ranks vows to uphold our sacred duty
+                      of sharing sunscreen with those in need or might not
+                      realize they need it.
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="div-14">
+            <div className="builder-columns div-15">
+              <div className="builder-column column">
+                <div className="div-16">
+                  <picture>
+                    <source
+                      srcset="https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?format=webp&width=282 282w"
+                      type="image/webp"
+                    />
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=282"
+                      sizes="(max-width: 638px) 45vw, (max-width: 998px) 29vw, 21vw"
+                      srcset="https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2Fbf837cf03d2e445bab0e361cbf261eaa?width=282 282w"
+                      className="image"
+                      loading={"lazy"}
+                    />
+                  </picture>
+                  <div className="builder-image-sizer image-sizer-2" />
+                </div>
+                <div className="div-17">
+                  <p>
+                    <strong>
+                      There is no purity test of gingerness. Ginger sympathizers
+                      and anyone who identifies as a ginger may join our ranks.
+                    </strong>
+                  </p>
+                </div>
+              </div>
+              <div className="builder-column column-3">
+                <div className="div-18">
+                  <picture>
+                    <source
+                      srcset="https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=961 961w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=601 601w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?format=webp&width=593 593w"
+                      type="image/webp"
+                    />
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=961"
+                      sizes="(max-width: 638px) 95vw, (max-width: 998px) 97vw, 43vw"
+                      srcset="https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=961 961w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=601 601w, https://cdn.builder.io/api/v1/image/assets%2F5ea705198a1b4b7f841118c34b1df766%2F05c0081fd30f442c9a3fd18801a14847?width=593 593w"
+                      className="image"
+                      loading={"lazy"}
+                    />
+                  </picture>
+                  <div className="builder-image-sizer image-sizer-3" />
+                </div>
+                <div className="div-19">
+                  <p>
+                    <strong>
+                      Meet the brass who lead beaches sieges, doling out
+                      sunscreen, shirts, umbrellas—hell we'll fetch you palm
+                      leaves if readily available.
+                    </strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="div-20" />{" "}
+          <div className="text">
+            <h2>
+              <strong>AT YOUR SERVICE</strong>
+            </h2>
+          </div>{" "}
+          <div className="div-21">
+            <div className="builder-columns div-22">
+              <div className="builder-column column-4">
+                <div className="div-23">
+                  <p>
+                    <strong>Free Public Goods Sunscreen</strong>
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="builder-column column-5">
+                <div className="div-24">
+                  <p>
+                    <strong>Random Swag, Sometimes Ours</strong>
+                  </p>
+                </div>
+              </div>{" "}
+              <div className="builder-column column-6">
+                <div className="div-25">
+                  <p>
+                    <strong>Sun Protection By Any Means Possible</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>{" "}
+      <style jsx>{`
+        .div {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          padding-bottom: 50px;
+          width: 100vw;
+          margin-left: calc(50% - 50vw);
+        }
+        .section {
+          width: 100%;
+          align-self: stretch;
+          flex-grow: 1;
+          max-width: 1200px;
+          display: flex;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .div-2 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          line-height: normal;
+          height: auto;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 46px;
+          font-family: "Black Ops One", display;
+          color: rgba(189, 64, 64, 1);
+          text-shadow: 2px 2px 3px rgba(141, 98, 27, 1);
+          border-style: none;
+          width: 808px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .div-3 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          height: 1px;
+          background-color: rgba(196, 190, 172, 1);
+        }
+        .columns {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: -3.5px;
+        }
+        .div-4 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 30px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+          width: 1011px;
+          max-width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .image {
+          object-fit: contain;
+          object-position: center;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+        }
+        .image-sizer {
+          width: 100%;
+          padding-top: 196.1%;
+          pointer-events: none;
+          font-size: 0;
+        }
+        .columns-2 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: -1px;
+          background-color: rgba(240, 240, 240, 1);
+          padding-top: 0px;
+        }
+        .div-5 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          height: auto;
+          padding-bottom: 30px;
+        }
+        .div-6 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 30px;
+          text-align: center;
+          line-height: normal;
+          height: 8.4375px;
+          flex-grow: 0;
+        }
+        .div-7 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 61px;
+          text-align: center;
+          line-height: normal;
+          height: 333px;
+          font-size: 72px;
+          padding-top: 0px;
+          max-height: 256px;
+          width: 975px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .a {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 28px;
+          appearance: none;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          padding-left: 25px;
+          padding-right: 25px;
+          background-color: #3898EC;
+          color: white;
+          border-radius: 4px;
+          text-align: center;
+          cursor: pointer;
+          max-width: 693px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 506px;
+          font-size: 35px;
+          margin-bottom: 44px;
+        }
+        .div-8 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 0px;
+          padding-bottom: 0px;
+        }
+        .div-9 {
+          display: flex;
+        }
+        @media (max-width: 999px) {
+          .div-9 {
+            flex-direction: column;
+            align-items: stretch;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(50% - 10px);
+          margin-left: 0px;
+        }
+        @media (max-width: 999px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .div-10 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          height: auto;
+          padding-bottom: 30px;
+          width: auto;
+          align-self: stretch;
+          margin-right: auto;
+        }
+        .div-11 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 9px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+          margin-right: auto;
+          margin-bottom: -3px;
+        }
+        .div-12 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: -3px;
+          text-align: left;
+          line-height: normal;
+          height: auto;
+          font-size: 32px;
+          width: auto;
+          align-self: stretch;
+          margin-right: auto;
+          padding-top: 0px;
+        }
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(50% - 10px);
+          margin-left: 20px;
+        }
+        @media (max-width: 999px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .div-13 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 66.5px;
+          height: auto;
+          padding-bottom: 22px;
+          text-align: left;
+          line-height: normal;
+          margin-right: auto;
+        }
+        @media (max-width: 991px) {
+          .div-13 {
+            padding-bottom: 5px;
+            margin-top: 1px;
+          }
+        }
+        @media (max-width: 640px) {
+          .div-13 {
+            padding-bottom: 9px;
+          }
+        }
+        .div-14 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: -1px;
+        }
+        .div-15 {
+          display: flex;
+        }
+        @media (max-width: 999px) {
+          .div-15 {
+            flex-direction: column;
+            align-items: stretch;
+          }
+        }
+        .div-16 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 30px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+          margin-right: auto;
+          width: 281.375px;
+          margin-left: auto;
+        }
+        .image-sizer-2 {
+          width: 100%;
+          padding-top: 77.12%;
+          pointer-events: none;
+          font-size: 0;
+        }
+        .div-17 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 38px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+          margin-right: auto;
+        }
+        .column-3 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(50% - 10px);
+          margin-left: 20px;
+        }
+        @media (max-width: 999px) {
+          .column-3 {
+            width: 100%;
+          }
+        }
+        .div-18 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: -1px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+          margin-left: -3px;
+        }
+        .image-sizer-3 {
+          width: 100%;
+          padding-top: 49.08%;
+          pointer-events: none;
+          font-size: 0;
+        }
+        .div-19 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: -1px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+          margin-right: auto;
+        }
+        .div-20 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          height: 1px;
+          background-color: rgba(196, 190, 172, 1);
+        }
+        .text {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 15px;
+          line-height: normal;
+          height: auto;
+          text-align: center;
+          color: rgba(0, 0, 0, 1);
+        }
+        .div-21 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 0.9921875px;
+        }
+        .div-22 {
+          display: flex;
+        }
+        @media (max-width: 639px) {
+          .div-22 {
+            flex-direction: column;
+            align-items: stretch;
+          }
+        }
+        .column-4 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(33.333333333333336% - 13.333333333333334px);
+          margin-left: 0px;
+        }
+        @media (max-width: 639px) {
+          .column-4 {
+            width: 100%;
+          }
+        }
+        .div-23 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: auto;
+          text-align: left;
+          line-height: normal;
+          height: auto;
+          margin-bottom: auto;
+          width: 146.32799999999997px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .column-5 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(33.333333333333336% - 13.333333333333334px);
+          margin-left: 20px;
+        }
+        @media (max-width: 639px) {
+          .column-5 {
+            width: 100%;
+          }
+        }
+        .div-24 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: auto;
+          text-align: left;
+          line-height: normal;
+          height: auto;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          width: 136.32799999999997px;
+        }
+        .column-6 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(33.333333333333336% - 13.333333333333334px);
+          margin-left: 20px;
+        }
+        @media (max-width: 639px) {
+          .column-6 {
+            width: 100%;
+          }
+        }
+        .div-25 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: auto;
+          text-align: left;
+          line-height: normal;
+          height: auto;
+          margin-bottom: auto;
+          width: 208.32799999999997px;
+        }
+      `}</style>{" "}
+    </>
+  );
+}
